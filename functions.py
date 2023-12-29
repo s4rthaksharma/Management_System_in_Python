@@ -1,4 +1,4 @@
-import mysqlconnector as m
+import mysql.connector as m
 import tabulate as t
 
 a = m.connect(host="localhost", user="root", password="", database="student")
